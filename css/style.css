@@ -143,6 +143,23 @@ circle.align-left{
 .text-mine{
   color: #d4d4d4;
 }
+.justifyy{
+  text-align: justify;
+  -moz-text-align:justify;
+  -webkit-text-align:justify;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.list a{
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+  padding: 3px 0px;
+}
+.footerr{
+  padding-bottom: 50px;
+}
 @media(max-width:1024px){
   circle{
     display: none;
