@@ -76,15 +76,15 @@ circle.align-left {
 }
 .mybtn3{
   background-color: none !important;
-  color: #ffffff;
+  color: #000000;
   border-radius: 0px;
-  border: 1px solid #ffffff;
+  border: 1px solid #002259;
 }
 .mybtn3:hover{
   background-color: none !important;
-  color: #ffffff;
+  color: #000000;
   border-radius: 0px;
-  border: 1px solid #ffffff;
+  border: 1px solid #002259;
 }
 .small {
   font-size: 0.1rem;
@@ -110,11 +110,12 @@ circle.align-left {
   padding-right: 200px;
 }
 .title2{
-  font-weight: 550;
-  color: white;
+  font-weight: 650;
+  padding-right: 200px;
+  color: rgb(0, 0, 0);
 }
 .inside_title2{
-  color: rgb(189, 189, 189);
+  color: rgb(99, 99, 99);
   padding-right: 200px;
 }
 
@@ -182,7 +183,7 @@ circle.align-left {
 .myback {
   padding: 20px 0px 20px 0px;
   margin-top: 150px;
-  background-color: #002259;
+  background-color:#f5f7fd;
   border-radius: 10px;
 }
 .gradient-text{
@@ -206,14 +207,14 @@ circle.align-left {
   font-weight: 700;
 }
 .bordbot{
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #002259;
 }
 .strok { 
   font-size: 4rem;
-  color: #002259;
-  -webkit-text-fill-color: #002259 !important; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgb(255, 255, 255);
+  color: #f5f7fd;
+  -webkit-text-fill-color: #f5f7fd !important; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #002259;
 }
 
 @media (max-width: 1024px) {
@@ -223,9 +224,6 @@ circle.align-left {
   .inside_title {
     color: gray;
     padding-right: 50px;
-  }
-  .inside_title2 {
-    padding-right: 0px;
   }
   .bolder{
     font-size: 2rem;
@@ -247,9 +245,6 @@ circle.align-left {
   }
 }
 @media (max-width: 700px) {
-  .myback{
-    margin-top: 50px;
-  }
   .strok{
     font-size: 2rem;
   }
@@ -262,9 +257,6 @@ circle.align-left {
   }
   .inside_title {
     color: gray;
-    padding-right: 0px;
-  }
-  .inside_title2 {
     padding-right: 0px;
   }
   .efd {
