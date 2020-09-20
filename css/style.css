@@ -215,7 +215,32 @@ circle.align-left {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000000;
 }
-
+#knot1,#knot2{
+  animation: knot 1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#abcd,#abcd-2{
+  animation: knot2 1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+@keyframes knot{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes knot2{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
 @media (max-width: 1024px) {
   circle {
     display: none;
