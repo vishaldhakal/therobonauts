@@ -12,7 +12,7 @@ nav ul li a {
 nav ul li a:hover {
   color: #002259 !important;
 }
-circle {
+.mycircle {
   background-color: #f5f7fd;
   border-radius: 50%;
   width: 500px;
@@ -20,7 +20,7 @@ circle {
   position: absolute;
   z-index: -10;
 }
-circle.align-left {
+.mycircle.align-left {
   margin: 80px;
   margin-left: -150px;
 }
@@ -212,7 +212,7 @@ circle.align-left {
   font-size: 4rem;
   color: #f5f7fd;
   -webkit-text-fill-color: #f5f7fd !important; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1.7px;
   -webkit-text-stroke-color: #000000;
 }
 #knot1,#knot2{
@@ -242,7 +242,7 @@ circle.align-left {
   }
 }
 @media (max-width: 1024px) {
-  circle {
+  .mycircle {
     display: none;
   }
   .inside_title {
@@ -328,13 +328,18 @@ circle.align-left {
   }
 }
 
-#lefthand{
+#lefthand,#lefthand22{
   animation: hand 1s infinite alternate;
   transform-origin: start;
   transform-box: fill-box;
 }
 
 #lefteye,#righteye{
+  animation: eye 1s infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#lefteye22,#righteye22{
   animation: eye 1s infinite alternate;
   transform-origin: center;
   transform-box: fill-box;
