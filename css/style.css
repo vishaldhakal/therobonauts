@@ -117,15 +117,14 @@ circle.align-left{
 }
 .myfield{
   padding: 12px;
-  background-color: rgb(36, 36, 36);
-  border: none;
+  background-color: rgb(255, 255, 255);
 }
 .myfield:focus{
   -webkit-box-shadow: none !important;
   -moz-box-shadow:none !important;
   box-shadow: none !important;
   outline: 0;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(255, 255, 255);
 }
 ::placeholder{
   color: rgb(109, 109, 109) !important;
@@ -159,6 +158,12 @@ circle.align-left{
 }
 .footerr{
   padding-bottom: 50px;
+}
+.myback{
+  padding: 200px;
+  margin-top: 200px;
+  background-color: #0062ff15;
+  border-radius: 10px;
 }
 @media(max-width:1024px){
   circle{
