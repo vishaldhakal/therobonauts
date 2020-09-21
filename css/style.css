@@ -308,19 +308,18 @@ nav ul li a:hover {
 .our-team .social li{ display: inline-block; }
 .our-team .social li a{
   display: block;
-  width: 40px;
-  height: 40px;
-  line-height: 30px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   font-size: 15px;
   color: #fff;
-  background: #fff;
+  border: 1px solid white;
   margin-right: 10px;
   transition: all 0.5s ease 0s;
 }
 .our-team .social li a:hover{
   background: #fff;
-  color: #000;
+  color: #002259;
 }
 .our-team .team-content{
   width: 100%;
