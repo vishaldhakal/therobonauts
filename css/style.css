@@ -183,13 +183,13 @@ nav ul li a:hover {
 .myback {
   padding: 20px 0px 20px 0px;
   margin-top: 150px;
-  background-color:#f5f7fd;
+  background-color:#eef1fd;
   border-radius: 10px;
 }
 .myback2 {
   padding: 20px 20px 20px 20px;
   margin-top: 150px;
-  background-color:#002259;
+  background-color:#eef1fd;
   border-radius: 10px;
 }
 .gradient-text{
@@ -216,21 +216,21 @@ nav ul li a:hover {
   border-bottom: 1px solid #002259;
 }
 .bordbot2{
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #002259;
 }
 .strok { 
   font-size: 3rem;
-  color: #f5f7fd;
-  -webkit-text-fill-color: #f5f7fd !important; /* Will override color (regardless of order) */
+  color: #eef1fd;
+  -webkit-text-fill-color: #eef1fd !important; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.7px;
   -webkit-text-stroke-color: #000000;
 }
 .strok2{ 
   font-size: 3rem;
-  color: #002259;
-  -webkit-text-fill-color:#002259 !important; /* Will override color (regardless of order) */
+  color: #eef1fd;
+  -webkit-text-fill-color: #eef1fd !important; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.7px;
-  -webkit-text-stroke-color: #ffffff;
+  -webkit-text-stroke-color: #000000;
 }
 #knot1,#knot2{
   animation: knot 1s infinite linear;
@@ -343,7 +343,7 @@ nav ul li a:hover {
 .our-team .title{
   font-size: 1.2rem;
   font-weight: 600;
-  color: #ffffff;
+  color: #292929;
   margin: 0 0 5px 0;
   transition: all 0.5s ease 0s;
 }
@@ -351,7 +351,7 @@ nav ul li a:hover {
 .our-team .post{
   display: block;
   font-size: 0.9rem;
-  color: #cacaca;
+  color: #ff5e007a;
 }
 @media (max-width: 1024px) {
   .mycircle {
