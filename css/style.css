@@ -196,6 +196,10 @@ nav ul li a:hover {
   padding: 20px 20px 20px 20px;
   margin-top: 150px;
 }
+.carousel_part{
+  padding: 20px 20px 20px 20px;
+  margin-top: 150px;
+}
 .gradient-text{
   background: linear-gradient(90deg, #ff6600 0%, #ff5100 100%);
   background: -webkit-linear-gradient(90deg, #ff6600 0%, #ff5100 100%);
@@ -252,6 +256,11 @@ nav ul li a:hover {
   animation: knot2 1s infinite linear;
   transform-origin: center;
   transform-box: fill-box;
+}
+.bg-mine{
+  background-color: #002259;
+  color: white;
+  font-size: 0.2rem;
 }
 @keyframes knot{
   from{
@@ -430,6 +439,12 @@ nav ul li a:hover {
   .contact_part{
     margin-top: 50px;
   }
+  .carousel_part{
+    margin-top: 50px;
+  }
+  .myback2{
+    margin-top: 50px;
+  }
   .our-team .title{
     font-size: 0.7rem;
   }
@@ -488,9 +503,6 @@ nav ul li a:hover {
   }
   .efd {
     display: none;
-  }
-  .main {
-    background: none !important;
   }
   .fix {
     position: fixed;
