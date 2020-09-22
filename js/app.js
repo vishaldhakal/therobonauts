@@ -12,6 +12,9 @@ function toggleClick(e){
         menuIcon.classList.add('abc');
     }
 }
+var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+    keyboard: false
+})
 
 window.addEventListener('load', function(){
     new Glider(document.querySelector('.glider'), {
@@ -24,4 +27,12 @@ window.addEventListener('load', function(){
             next: '.glider-next'
         }
       });
-  })
+      myModal.show();
+      setTimeout(() => {
+          myfunc();
+      }, 9000);
+})
+
+function myfunc(){
+    myModal.hide();
+}
