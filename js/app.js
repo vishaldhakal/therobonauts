@@ -27,10 +27,15 @@ window.addEventListener('load', function(){
             next: '.glider-next'
         }
       });
-      myModal.show();
-      setTimeout(() => {
-          myfunc();
-      }, 9000);
+      if (window.matchMedia('(display-mode: standalone)').matches) {
+        console.log('Running in standalone');
+      }else{
+        myModal.show();
+        setTimeout(() => {
+            myfunc();
+        }, 9000);
+      }
+      
 })
 
 function myfunc(){
