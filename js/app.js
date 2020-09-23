@@ -12,9 +12,9 @@ function toggleClick(e){
         menuIcon.classList.add('abc');
     }
 }
-var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
+/* var myModal = new bootstrap.Modal(document.getElementById('myModal'), {
     keyboard: false
-})
+}) */
 
 window.addEventListener('load', function(){
     new Glider(document.querySelector('.glider'), {
@@ -26,18 +26,16 @@ window.addEventListener('load', function(){
             prev: '.glider-prev',
             next: '.glider-next'
         }
-      });
-      if (window.matchMedia('(display-mode: standalone)').matches) {
+      });      
+})
+/* if (window.matchMedia('(display-mode: standalone)').matches) {
         console.log('Running in standalone');
       }else{
         myModal.show();
         setTimeout(() => {
             myfunc();
         }, 9000);
-      }
-      
-})
-
-function myfunc(){
+      } */
+/* function myfunc(){
     myModal.hide();
-}
+} */
