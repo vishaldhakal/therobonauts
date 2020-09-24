@@ -1,6 +1,21 @@
 const toggleBtn = document.querySelector('.togglebtn');
 const menuIcon = document.querySelector('.menu');
 const images = document.querySelector('#myimages')
+const anim = document.querySelectorAll('.anim');
+
+observer = new IntersectionObserver((entries)=>{
+    entries.forEach(entry => {
+        if(entry.intersectionRatio > 0){
+            entry.target.style.animation = `fade1 1s linear`;
+        }else{
+            entry.target.style.animation = `none`;
+        }
+    });
+})
+
+anim.forEach(element => {
+    observer.observe(element);
+});
 
 toggleBtn.addEventListener('click',toggleClick)
 function toggleClick(e){

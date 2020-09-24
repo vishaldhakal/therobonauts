@@ -203,7 +203,7 @@ iframe{
   border-radius: 10px;
 }
 .video_title{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 .video_sub_title{
@@ -221,6 +221,13 @@ iframe{
   margin-top: 150px;
   background-color:#f1f3fa;
   border-radius: 10px;
+}
+.bg-minee{
+  background:#002259;
+  color: white;
+  text-align: center;
+  padding: 1rem 0rem;
+  border-bottom: none;
 }
 .contact_part {
   padding: 20px 20px 20px 20px;
@@ -309,6 +316,16 @@ iframe{
   }
   to{
     transform: rotateZ(360deg);
+  }
+}
+@keyframes fade1{
+  from{
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to{
+    transform: scale(1);
+    opacity: 1;
   }
 }
 .botimg{
