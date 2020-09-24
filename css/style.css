@@ -189,6 +189,9 @@ nav ul li a:hover {
 iframe{
   border-radius: 10px 10px 0px 0px;
 }
+.glider-prev,.glider-next{
+  z-index: -1;
+}
 .myback {
   padding: 20px 0px 20px 0px;
   margin-top: 150px;
