@@ -186,10 +186,31 @@ nav ul li a:hover {
 .footerr {
   padding-bottom: 50px;
 }
+iframe{
+  border-radius: 10px 10px 0px 0px;
+}
 .myback {
   padding: 20px 0px 20px 0px;
   margin-top: 150px;
   background-color:#f1f3fa;
+  border-radius: 10px;
+}
+.card{
+  border: none;
+  border-radius: 10px;
+}
+.video_title{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.video_sub_title{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.mybackk{
+  padding: 20px 0px 20px 0px;
+  margin-top: 150px;
+  background-color:#c1d9ff;
   border-radius: 10px;
 }
 .myback2 {
