@@ -223,15 +223,31 @@ iframe{
   border-radius: 10px;
 }
 .bg-minee{
-  background:#002259;
-  color: white;
+  background:#f0f0f0;
+  color: #002259;
   text-align: center;
   padding: 1rem 0rem;
   border-bottom: none;
 }
+.mytit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fon{
+  color: #4d4d4d;
+  font-weight: 700;
+}
 .contact_part {
   padding: 20px 20px 20px 20px;
   margin-top: 150px;
+}
+.package-section {
+  padding: 20px 20px 20px 20px;
+  margin-top: 150px;
+  background: url('../images/first_global.jpg');
+  background: #f1f3fa;
+  color: rgb(24, 24, 24);
 }
 .carousel_part{
   padding: 20px 20px 20px 20px;
@@ -301,32 +317,6 @@ iframe{
   background-color: #002259;
   color: white;
   font-size: 0.2rem;
-}
-@keyframes knot{
-  from{
-    transform: rotateZ(0deg);
-  }
-  to{
-    transform: rotateZ(360deg);
-  }
-}
-@keyframes knot2{
-  from{
-    transform: rotateZ(0deg);
-  }
-  to{
-    transform: rotateZ(360deg);
-  }
-}
-@keyframes fade1{
-  from{
-    transform: scale(0.9);
-    opacity: 0;
-  }
-  to{
-    transform: scale(1);
-    opacity: 1;
-  }
 }
 .botimg{
   fill: #ffffff;
@@ -421,7 +411,7 @@ iframe{
 .our-team .post{
   display: block;
   font-size: 0.9rem;
-  color: #ff5e007a;
+  color: #ff5e00c0;
 }
 .mytitle{
   font-size: 2.6rem;
@@ -468,6 +458,9 @@ iframe{
 .rightt{
   border-radius: 50px 50px 0px 50px;
 }
+.padd{
+  margin-top: 100px;
+}
 @media (max-width: 1024px) {
   .p-m{
     padding:0px 10px;
@@ -502,6 +495,9 @@ iframe{
   }
 }
 @media(max-width:780px){
+  .padd{
+    margin-top: 50px;
+  }
   .mytitle{
     font-size: 1.5rem;
   }
@@ -623,6 +619,9 @@ iframe{
   transform-origin: center;
   transform-box: fill-box;
 }
+.animate:hover{
+  animation: myanim 1s linear;
+}
 @keyframes hand{
   from{
     transform: rotateX(90deg);
@@ -639,5 +638,38 @@ iframe{
   to{
     transform: rotateZ(5deg);
     fill: #ffffff;
+  }
+}
+
+@keyframes knot{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes knot2{
+  from{
+    transform: rotateZ(0deg);
+  }
+  to{
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes fade1{
+  from{
+    opacity: 0.8;
+  }
+  to{
+    opacity: 1;
+  }
+}
+@keyframes myanim{
+  from{
+    opacity: 0.7;
+  }
+  to{
+    opacity: 1;
   }
 }
